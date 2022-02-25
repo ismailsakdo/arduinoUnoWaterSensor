@@ -6,7 +6,7 @@ void setup()
   Serial.flush();
   while(Serial.available()>0)Serial.read();
 
-  pinMode(A0, INPUT);
+  pinMode(A0, INPUT); // sila namakan setiap satu flow anda  punya programming
 }
 
 
